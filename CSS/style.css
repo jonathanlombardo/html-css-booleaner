@@ -12,6 +12,7 @@ a:link, a:visited, a:hover{
 .container{
     width: 1000px;
     margin: 0 auto;
+    padding-top: 10px;
 }
 
 header{
@@ -28,10 +29,10 @@ header{
     bottom: 10px;
 }
 
-h1{
-    padding-top: 10px;
-}
-
 .medium-text, .small-text{
     color: rgb(128, 128, 128);
+}
+
+.content-img{
+    height: 320px;
 }
