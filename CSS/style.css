@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgb(78, 160, 255);
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    height: 100px;
+    position: relative;
+}
+
+#logo-img{
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+}
