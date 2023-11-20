@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Newsreader', serif;
+    font-size: 14px;
 }
 
 a:link, a:visited, a:hover{
@@ -15,7 +16,7 @@ a:link, a:visited, a:hover{
 }
 
 .container{
-    width: 1000px;
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -34,12 +35,24 @@ header{
     bottom: 2px;
 }
 
+h1{
+    font-size: 28px;
+}
+
+.small-text{
+    font-size: 10px;
+}
+
+.medium-text{
+    font-size: 16px;
+}
+
 .medium-text, .small-text{
     color: rgb(128, 128, 128);
 }
 
 .content-img{
-    height: 320px;
+    height: 250px;
 }
 
 .evidence{
@@ -55,30 +68,26 @@ table{
     width: 100%;
     padding-left: 5px;
     padding-right: 5px;
+    border-spacing: 0;
 }
 
 .largercolumn{
     width: 50%;
 }
 
-table{
-    border-spacing: 0;
-}
-
 thead{
-    background-color: blue;
+    background-color: rgb(32, 169, 229);
     color: white;
     text-align: left;
 }
 
 .bluerow{
-    background-color: aqua;
+    background-color: rgb(177, 229, 242);
 }
 
 .crossarticle{
     width: 200px;
     height: 150px;
-    /* background-color: brown; */
     background-size: contain;
     margin-top: 5px;
     color: white;
