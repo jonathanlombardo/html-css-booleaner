@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+a:link, a:visited, a:hover{
+    text-decoration: none;
+    color: rgb(38, 171, 229);
+}
+
 .container{
     width: 1000px;
     margin: 0 auto;
@@ -20,5 +25,13 @@ header{
 #logo-img{
     height: 60px;
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
+}
+
+h1{
+    padding-top: 10px;
+}
+
+.medium-text, .small-text{
+    color: rgb(128, 128, 128);
 }
