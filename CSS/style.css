@@ -23,15 +23,15 @@ a:link, a:visited, a:hover{
 header{
     background-color: rgb(78, 160, 255);
     background-image: url(../img/pattern.png);
-    background-size: contain;
-    height: 100px;
+    background-size: 200px;
+    height: 50px;
     position: relative;
 }
 
 #logo-img{
-    height: 60px;
+    height: 30px;
     position: absolute;
-    bottom: 10px;
+    bottom: 2px;
 }
 
 .medium-text, .small-text{
